@@ -38,4 +38,9 @@ if FORMAT:match 'latex' then
             end
         end
     end
+
+    return {
+        { Span = Span },
+        { RawInline = RawInline }
+    }
 end
